@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Blogs Page</title>
+</head>
+<body class="font-poppins px-28	mx-auto">
+    <header class=" drop-shadow-md rounded-xl bg-gray-50 mx-auto mt-5 p-4">
+        <section class="flex justify-between">
+         <div class="flex justify-between gap-1 items-center">
+             <img class="max-w-12 max-h-12" src="./assets/logo.png" alt="">
+             <h1 class="text-3xl text-[#00303C]">Dev<span class="font-extrabold">Board</span></h1>
+         </div>
+          <div>
+            <button class="btn btn-primary">Back to Desk</button>
+          </div>
+         
+        </section>
+ 
+     </header>
+     <!-- Main blogs part starts here -->
+    <main class="mt-4 mb-4">
+        <h1 class="font-bold text-center text-xl">Blogs</h1>
+        <section class="mt-4 flex flex-col gap-4">
+            <!-- Q-1 -->
+            <div class="card  bg-base-100 card-xs shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Question-1: What are the different ways to select an element in the DOM? </h2>
+                  <div class="border-t border-dotted border-gray-400 my-2"></div>
+                  <p>Elements in the DOM can be selected using methods like getElementById, getElementsByClassName, getElementsByTagName, querySelector, and querySelectorAll.</p>
+                </div>
+              </div>
+            <!-- Q-2 -->
+            <div class="card  bg-base-100 card-xs shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent? </h2>
+                  <div class="border-t border-dotted border-gray-400 my-2"></div>
+                  <p>innerHTML returns HTML content, innerText returns visible text (excluding hidden), and textContent returns all text including hidden, without HTML formatting.</p>
+                </div>
+              </div>
+            <!-- Q-3 -->
+            <div class="card  bg-base-100 card-xs shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Question-3: What is event delegation in the DOM?
+                  </h2>
+                  <div class="border-t border-dotted border-gray-400 my-2"></div>
+                  <p>Event delegation is a technique where a single event listener is added to a parent element to handle events from its child elements using event bubbling.
+                  </p>
+                </div>
+              </div>
+            <!-- Q-4 -->
+            <div class="card  bg-base-100 card-xs shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Question-4: What is event bubbling in the DOM? </h2>
+                  <div class="border-t border-dotted border-gray-400 my-2"></div>
+                  <p>Event bubbling is the process where an event starts from the target element and bubbles up through its ancestors in the DOM hierarchy.</p>
+                </div>
+              </div>
+              <!-- Q-5 -->
+            <div class="card  bg-base-100 card-xs shadow-sm">
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Question-5: How do you create, add, and remove elements using JavaScript? </h2>
+                  <div class="border-t border-dotted border-gray-400 my-2"></div>
+                  <p>You can create elements using document.createElement(), add them with appendChild() or append(), and remove them using removeChild() or remove().</p>
+                </div>
+              </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
