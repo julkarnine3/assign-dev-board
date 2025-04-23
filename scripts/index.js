@@ -24,9 +24,9 @@ formattedDate = formattedDate.replace(',', '');
 dateElement.textContent = formattedDate;
 
 // Completed button work
-handleButtonClick('shopEase-btn', 'Board Updated successfully');
-handleButtonClick('CloudSync-btn', 'Board Updated successfully');
-handleButtonClick('SwiftPay-btn', 'Board Updated successfully');
-handleButtonClick('Meta-btn', 'Board Updated successfully');
-handleButtonClick('Google-btn', 'Board Updated successfully');
-handleButtonClick('Glassdoar-btn', 'Board Updated successfully');
+handleButtonClick('shopEase-btn', 'fix-mobile-title');
+handleButtonClick('CloudSync-btn', 'dark-mode-title');
+handleButtonClick('SwiftPay-btn', 'home-page-title');
+handleButtonClick('Meta-btn', 'new-emoji-title');
+handleButtonClick('Google-btn', 'openAI-title');
+handleButtonClick('Glassdoar-btn', 'improve-title');
